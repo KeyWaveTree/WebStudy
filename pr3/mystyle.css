@@ -1,0 +1,77 @@
+/*
+1. 문서의 배경으로 벽지 느낌이 나도록 작은 이미지를 상하좌우 반복 패턴으로 삽입 - 완료 
+2. 스타일을 사용하여 제목 부분을 화려한 웹 폰트를 사용하고 빨간색으로 변경 - 완료
+3. 첨부된 모든 이미지에 groove 테두리와 흐릿한 그림자 추가 - 완료
+4. 시간표의 내용마다 고유한 컬러 지정
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet&display=swap");
+
+body {
+  background-image: url(media/wallpaper-black.jpg);
+  background-repeat: repeat;
+}
+
+hr {
+  border: 3px solid whitesmoke;
+}
+
+h2 {
+  font-family: "Hahmlet", serif;
+  font-size: 40px;
+  text-shadow: 3px 3px white;
+
+  color: red;
+}
+
+h3 {
+  font-family: "Hahmlet", serif;
+  font-size: 20px;
+  text-shadow: 1px 1px white;
+
+  color: red;
+}
+
+.blur_shadow {
+  box-shadow: 10px 10px 5px brown;
+}
+
+div {
+  width: 300px;
+  height: 350px;
+  background: palegoldenrod;
+  padding: 5px;
+  border: 15px groove burlywood;
+}
+
+.bord {
+  background: yellow;
+}
+
+.algorithm {
+  background: green;
+}
+
+.oop {
+  background: skyblue;
+}
+
+.P_and_S {
+  background: red;
+}
+
+.psy {
+  background: burlywood;
+}
+
+.career {
+  background: pink;
+}
+
+.web {
+  background: orange;
+}
+
+table {
+  background: whitesmoke;
+}
