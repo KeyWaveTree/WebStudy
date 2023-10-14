@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p.up {
+        color: white;
+        margin: 15px;
+        padding: 50px;
+        font-size: 25px;
+        text-align: center;
+        width: 75px;
+        height: 60px;
+        border: solid 4px;
+        border-radius: 1% 100px;
+        border-width: 5px;
+        border-color: aqua darkcyan darkcyan aqua;
+      }
+      p.down {
+        color: white;
+        margin: 15px;
+        padding: 50px;
+        font-size: 25px;
+        text-align: center;
+        width: 75px;
+        height: 60px;
+        border: solid 4px;
+        border-radius: 1% 100px;
+        border-width: 5px;
+        border-color: aqua darkcyan darkcyan aqua;
+      }
+      p.upTwo {
+        color: white;
+        margin: 15px;
+        padding: 50px;
+        font-size: 25px;
+        text-align: center;
+        width: 75px;
+        height: 60px;
+        border: solid 4px;
+        border-radius: 100px 1%;
+        border-width: 5px;
+        border-color: aqua darkcyan darkcyan aqua;
+      }
+      p.downTwo {
+        color: white;
+        margin: 15px;
+        padding: 50px;
+        font-size: 25px;
+        text-align: center;
+        width: 75px;
+        height: 60px;
+        border: solid 4px;
+        border-radius: 100px 1%;
+        border-width: 5px;
+        border-color: aqua darkcyan darkcyan aqua;
+      }
+      div div {
+        display: inline-block;
+        position: relative;
+      }
+
+      @keyframes one {
+        0% {
+          background-color: red;
+        }
+        25% {
+          background-color: green;
+        }
+        50% {
+          background-color: blue;
+        }
+        75% {
+          background-color: magenta;
+        }
+        100% {
+          background-color: red;
+        }
+      }
+
+      @keyframes two {
+        0% {
+          background-color: magenta;
+        }
+        25% {
+          background-color: red;
+        }
+        50% {
+          background-color: green;
+        }
+        75% {
+          background-color: blue;
+        }
+        100% {
+          background-color: magenta;
+        }
+      }
+
+      @keyframes three {
+        0% {
+          background-color: blue;
+        }
+        25% {
+          background-color: magenta;
+        }
+        50% {
+          background-color: red;
+        }
+        75% {
+          background-color: green;
+        }
+        100% {
+          background-color: blue;
+        }
+      }
+
+      @keyframes four {
+        0% {
+          background-color: green;
+        }
+        25% {
+          background-color: blue;
+        }
+        50% {
+          background-color: magenta;
+        }
+        75% {
+          background-color: red;
+        }
+        100% {
+          background-color: green;
+        }
+      }
+
+      #one {
+        animation-name: one;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+
+      #two {
+        animation-name: two;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+      #three {
+        animation-name: three;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+      #four {
+        animation-name: four;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <p class="up" , id="one" , style="bottom: 10px">HTML</p>
+        <p class="downTwo" , id="two">JS</p>
+      </div>
+      <div>
+        <p class="upTwo" , id="four" , style="bottom: 10px">CSS</p>
+        <p class="down" , id="three">WEB</p>
+      </div>
+    </div>
+  </body>
+</html>
